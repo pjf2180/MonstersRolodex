@@ -12,7 +12,9 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
+a{
+  margin-top: 2rem;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -35,4 +37,9 @@
   to {
     transform: rotate(360deg);
   }
+}
+h1{
+  font-size: 57px;
+  color: #0ccac4;
+  font-family: 'Bigelow Rules', cursive;;
 }
