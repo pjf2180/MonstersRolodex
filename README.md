@@ -4,17 +4,17 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
-'docker build -t monsters-rolodex:v1.0 . '
+### `docker build -t monsters-rolodex:v1.0 . `
 
 This command is gonna tell docker to build an image in a repo called monsters-rolodex with a tag: v1.0
 and docker will assign an Image Id. You can actually see this by running:
 
-'docker images' or 'docker image ls'
+ ### `docker images` or `docker image ls`
 
 Now from this image you can start creating container instances of your newly created image!
 To create a new instance run:
 
-'docker run -dp 3000:80 monsters-rolodex:v1.0'
+### `docker run -dp 3000:80 monsters-rolodex:v1.0`
 
 this command will spin up a container instance out of monsters-rolodex:v1.0 in detached mode
 and mapping port 3000 of the host to 80 of the container.
